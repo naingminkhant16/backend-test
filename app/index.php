@@ -66,4 +66,5 @@ switch ($promotionType) {
 }
 
 echo "================\n";
+echo $cart->getCartDetails();
 echo "Calculate Total Cart Amount After Applying Promotion : " . $cart->calculateTotalAmount() . "\n";
