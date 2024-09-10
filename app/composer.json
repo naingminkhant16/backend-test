@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/app",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "naingminkhant",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
